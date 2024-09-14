@@ -1,5 +1,5 @@
 // console.log('hello world');
-function hello(string: String) {
+function hello(string) {
     console.log('Hello' + string);
 }
-hello('Jon')
+hello('Jon');
