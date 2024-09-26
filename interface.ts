@@ -1,10 +1,14 @@
-interface Stark {
+interface UserInterface {
+    id: number;
     name: string;
     age?: number;
 }
-function printNames(stark: Stark) {
-    console.log(stark.name);
+
+
+const User: UserInterface = {
+    id: 2,
+    name: 'pedro',
+    age: 22,
 }
 
-printNames({ name: "Demmy" })
-printNames({ name: 'Jemmy' })
+console.log(User.age);
